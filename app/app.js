@@ -5,52 +5,52 @@ class Feed extends React.Component {
   render() {
     return (
       <div>
-        <div classNameName="fb-status-update-entry panel panel-default">
-        <div classNameName="panel-body">
-          <ul classNameName="nav nav-pills">
-            <li role="presentation" classNameName="active">
-              <a href="#"><span classNameName="glyphicon glyphicon-pencil"></span> <strong>Update Status</strong></a>
+        <div className="fb-status-update-entry panel panel-default">
+        <div className="panel-body">
+          <ul className="nav nav-pills">
+            <li role="presentation" className="active">
+              <a href="#"><span className="glyphicon glyphicon-pencil"></span> <strong>Update Status</strong></a>
             </li>
             <li role="presentation">
-              <a href="#"><span classNameName="glyphicon glyphicon-picture"></span> <strong>Add Photos/Video</strong></a>
+              <a href="#"><span className="glyphicon glyphicon-picture"></span> <strong>Add Photos/Video</strong></a>
             </li>
             <li role="presentation">
-              <a href="#"><span classNameName="glyphicon glyphicon-th"></span> <strong>Create Photo Album</strong></a>
+              <a href="#"><span className="glyphicon glyphicon-th"></span> <strong>Create Photo Album</strong></a>
             </li>
           </ul>
-          <div classNameName="media">
-            <div classNameName="media-left media-top">
+          <div className="media">
+            <div className="media-left media-top">
               PIC
             </div>
-            <div classNameName="media-body">
-              <div classNameName="form-group">
-                <textarea classNameName="form-control" rows="2" placeholder="What's on your mind?"></textarea>
+            <div className="media-body">
+              <div className="form-group">
+                <textarea className="form-control" rows="2" placeholder="What's on your mind?"></textarea>
               </div>
             </div>
           </div>
-          <div classNameName="row">
-            <div classNameName="col-md-6">
-              <div classNameName="btn-group" role="group">
-                <button type="button" classNameName="btn btn-default">
-                  <span classNameName="glyphicon glyphicon-camera"></span>
+          <div className="row">
+            <div className="col-md-6">
+              <div className="btn-group" role="group">
+                <button type="button" className="btn btn-default">
+                  <span className="glyphicon glyphicon-camera"></span>
                 </button>
-                <button type="button" classNameName="btn btn-default">
-                  <span classNameName="glyphicon glyphicon-user"></span>
+                <button type="button" className="btn btn-default">
+                  <span className="glyphicon glyphicon-user"></span>
                 </button>
-                <button type="button" classNameName="btn btn-default">
+                <button type="button" className="btn btn-default">
                   ☺
                 </button>
-                <button type="button" classNameName="btn btn-default">
-                  <span classNameName="glyphicon glyphicon-pushpin"></span>
+                <button type="button" className="btn btn-default">
+                  <span className="glyphicon glyphicon-pushpin"></span>
                 </button>
               </div>
             </div>
-            <div classNameName="col-md-6">
-              <div classNameName="pull-right">
-                <button type="button" classNameName="btn btn-default">
-                  <span classNameName="glyphicon glyphicon-user"></span> Friends <span classNameName="caret"></span>
+            <div className="col-md-6">
+              <div className="pull-right">
+                <button type="button" className="btn btn-default">
+                  <span className="glyphicon glyphicon-user"></span> Friends <span className="caret"></span>
                 </button>
-                <button type="button" classNameName="btn btn-default">
+                <button type="button" className="btn btn-default">
                   Post
                 </button>
               </div>
@@ -158,7 +158,7 @@ ReactDOM.render(
 // import React from 'react';
 // import ReactDOM from 'react-dom';
 //
-// classNameName UghWorld extends React.Component {
+// className UghWorld extends React.Component {
 //   render() {
 //     return (
 //       <p>ugh, world</p>
