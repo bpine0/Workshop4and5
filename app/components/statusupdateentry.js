@@ -21,6 +21,7 @@ handlePost(e) {
     /* TODO: How do we send the post to the server + update the Feed? */
     // Reset status update.
     this.props.onPost(statusUpdateText);
+    this.setState({value: ""});
   }
 }
 
