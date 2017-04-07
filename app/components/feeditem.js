@@ -16,7 +16,7 @@ export default class FeedItem extends React.Component {
 
   handleCommentPost(commentText) {
     // Post a comment as user ID 4, which is our mock user!
-    postComment(this.state._id, 4, commentText, (updatedFeedItem) => {
+    postComment(this.state._id, 4, commentText, [], (updatedFeedItem) => {
       // Update our state to trigger a re-render.
       this.setState(updatedFeedItem);
     });
@@ -132,7 +132,7 @@ export default class FeedItem extends React.Component {
               data.comments.map((comment, i) => {
                 // i is comment's index in comments array
                 return (
-                  <Comment key={i} author={comment.author} postDate={comment.postDate}>{comment.contents}</Comment>
+                  <Comment key={i} cid={i} parent={this.state._id} author={comment.author} postDate={comment.postDate} likeCounterComment = {comment.likeCounterComment}>{comment.contents}</Comment>
                 );
               })
             }
